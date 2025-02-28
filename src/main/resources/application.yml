@@ -1,0 +1,26 @@
+spring:
+  jpa:
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+  datasource:
+    url: jdbc:mysql://awseb-e-bpjn3er8wc-stack-awsebrdsdatabase-htripchhb6xi.cbyqyea423rq.ap-northeast-2.rds.amazonaws.com:3306/blog
+    username: oudedong
+    password: Hsi24682!!
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            client-id: 1008169474681-5rg3b2h1se8lus951i39hr8j7i7l2fcq.apps.googleusercontent.com
+            client-secret: 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
+            scope: email, profile
+
+jwt:
+  issuer: hamhs1018@gmail.com
+  secret_key: oudedong
+
+server:
+  port: 5000
