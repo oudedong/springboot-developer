@@ -20,7 +20,7 @@ spring:
 
 jwt:
   issuer: hamhs1018@gmail.com
-  secret_key: oudedong
+  secret_key: blabla
 
 server:
   port: 5000
