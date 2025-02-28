@@ -7,15 +7,15 @@ spring:
   datasource:
     url: jdbc:mysql://awseb-e-bpjn3er8wc-stack-awsebrdsdatabase-htripchhb6xi.cbyqyea423rq.ap-northeast-2.rds.amazonaws.com:3306/blog
     username: oudedong
-    password: Hsi24682!!
+    password: BLABLA
     driver-class-name: com.mysql.cj.jdbc.Driver
   security:
     oauth2:
       client:
         registration:
           google:
-            client-id: 1008169474681-5rg3b2h1se8lus951i39hr8j7i7l2fcq.apps.googleusercontent.com
-            client-secret: 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
+            client-id: BLABLA
+            client-secret: BLABLA
             scope: email, profile
 
 jwt:
